@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Портфолио</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">Обо мне</a></li>
+				<li><a href="#projects">Проекты</a></li>
+				<li><a href="#contact">Связь</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="about">
+		<h2>Обо мне</h2>
+		<p>Приветствую на своем портфолио!</p>
+	<p>Здесь вы можете увидеть мои проекты, узнать обо мне больше, а так же связаться со мной</p>
+	</section>
+
+<section id="projects">
+	<h2>Мои проекты</h2>
+
+	<div class="project">
+		<h3>Первый проект</h3>
+		<p>Это мой дипломный проект на курсах программирования, так же это мой самый первый проект</p>
+		<div class="project-images">
+			<img src="image1-project1.jpg" alt="Project One Image 1">
+        </div>
+		</div>
+
+		<div class="project">
+			<h3>Второй проект</h3>
+			<p>Этот проект я сделал на быструю руку, но получилось хорошо, я полагаю...</p>
+			<div class="project-images">
+				<img src="image1-project2.jpg" alt="Project Two Image 1">
+        </div>
+			</div>
+
+</section>
+
+	<section id="contact">
+		<h2>Свяжитесь со мной</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<button type="submit">Send Message</button>
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy; EvgenTer. Все права защищены.</p>
+	</footer>
+</body>
+
+</html>
