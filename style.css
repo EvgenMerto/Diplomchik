@@ -33,6 +33,32 @@ body {
 				0 0 15px rgba(0,0,0,.2);
  }
 
+.text-3d-7 {
+	font-size: 100px;
+	color: #da70d6;
+	font-family: 'Finger Paint', cursive;
+	font-weight: bold;
+	text-shadow: 0 0 0 rgb(214,108,210),
+				-1px 1px 0 rgb(209,103,205),
+				-2px 2px 0 rgb(205,99,201),
+				-3px 3px 0 rgb(201,95,197),
+				-4px 4px 0 rgb(196,90,192),
+				-5px 5px 0 rgb(192,86,188),
+				-6px 6px 0 rgb(188,82,184),
+				-7px 7px 0 rgb(183,77,179),
+				-8px 8px 0 rgb(179,73,175),
+				-9px 9px 0 rgb(175,69,171),
+				-10px 10px 0 rgb(170,64,166),
+				-11px 11px 0 rgb(166,60,162),
+				-12px 12px 0 rgb(162,56,158),
+				-13px 13px 0 rgb(157,51,153),
+				-14px 14px 0 rgb(153,47,149),
+				-15px 15px  0 rgb(149,43,145),
+				-16px 16px 15px rgba(0,0,0,0.27),
+				-16px 16px 1px rgba(0,0,0,0.5),
+				0 0 15px rgba(0,0,0,.2);
+ }
+
 header {
     background: #4b3c4b;
     color: #ffffff;
