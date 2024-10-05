@@ -29,21 +29,25 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+	color: pink
 }
 
 nav ul li {
     display: inline;
     margin: 0 15px;
+	color: pink
 }
 
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+	color: pink
 }
 
 section {
     padding: 20px;
     margin: 20px;
+	color: pink
 }
 
 .project {
@@ -51,11 +55,13 @@ section {
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
+	color: pink
 }
 
 form {
     display: flex;
     flex-direction: column;
+	color: pink
 }
 
 label {
@@ -68,6 +74,7 @@ input, textarea {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     background: #b1a296;
+    color: pink
 }
 
 button {
