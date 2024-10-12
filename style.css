@@ -26,12 +26,24 @@ header {
     text-align: center;
 }
 
-.left {
-	float:left;
-	width:50%;
-	height:50%;
+.project1 {
+    background: #b1a296;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+	  color: black;
+    width: 45%;
+    float:right;
 }
-
+.project2 {
+    background: #b1a296;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+	  color:black;
+    width: 45%;
+    float:left;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -54,14 +66,6 @@ section {
     padding: 20px;
     margin: 20px;
 	color: pink
-}
-
-.project {
-    background: #b1a296;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-	color: black
 }
 
 form {
@@ -119,5 +123,3 @@ footer {
         margin: 10px;
     }
 }
-
-
