@@ -54,6 +54,7 @@ header {
     width: 100%;
     text-align: center;
     width: 100%;
+    text-align: center;
 }
 nav ul {
     list-style: none;
@@ -73,7 +74,8 @@ nav a {
 section {
     padding: 20px;
     margin: 20px;
-	color: pink
+    color: pink;
+    text-align: center;
 }
 form {
     display: flex;
