@@ -100,16 +100,20 @@ footer {
 }
 
 /* Responsive styles */
-@media (max-width: 600px) {
-    nav ul li {
+@media (max-width: 600px)
+{
+    nav ul li 
+   {
         display: block;
         margin: 5px 0;
     }
     
-    section {
+    section
+   {
         margin: 10px;
     }
 }
 
 .left {
 	float:left;
+}
