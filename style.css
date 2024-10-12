@@ -18,6 +18,8 @@ body {
 	-webkit-background-clip: text;
 	background-clip: text;
 	display: inline-block;
+	ext-align: center;
+        width: 100%
 }
 header {
     background: #4b3c4b;
